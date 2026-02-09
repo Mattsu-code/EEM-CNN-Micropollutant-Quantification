@@ -3,4 +3,4 @@
 > 
 > This directory should contain:
 > - `metadata_wastewater.csv`
-> - Individual EEM spectra CSV files (e.g., `sample_001.csv`)
+> - Individual EEM spectra CSV files (e.g., `inf_cnz11`)
