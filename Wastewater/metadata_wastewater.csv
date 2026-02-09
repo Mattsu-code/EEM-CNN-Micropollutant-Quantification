@@ -1,0 +1,68 @@
+sample_identifier;sample_type;conc_cip;conc_nap;conc_zol;conc_unit;detailed_description;sampling 
+inf_cnz11;Wastewater;0;0;0;ug/L;Influent_without OMP spiking;November_2022
+inf_cnz12;Wastewater;10;50;30;ug/L;Influent spiked with mixture cip_nap_zol;November_2022
+inf_cnz14;Wastewater;30;10;50;ug/L;Influent spiked with mixture cip_nap_zol;November_2022
+inf_cnz17;Wastewater;50;30;10;ug/L;Influent spiked with mixture cip_nap_zol;November_2022
+inf_cnz19;Wastewater;5;5;5;ug/L;Influent spiked with mixture cip_nap_zol;November_2022
+mb_cnz12;Wastewater;0;0;0;ug/L;MBBR_without OMP spiking;November_2022
+mb_cnz13;Wastewater;10;50;30;ug/L;MBBR spiked with mixture cip_nap_zol;November_2022
+mb_cnz15;Wastewater;30;10;50;ug/L;MBBR spiked with mixture cip_nap_zol;November_2022
+mb_cnz17;Wastewater;50;30;10;ug/L;MBBR spiked with mixture cip_nap_zol;November_2022
+mb_cnz19;Wastewater;5;5;5;ug/L;MBBR spiked with mixture cip_nap_zol;November_2022
+Gin_cnz11;Wastewater;10;50;30;ug/L;GAK in spiked with mixture_cip_nap_zol;November_2022
+Gin_cnz13;Wastewater;30;10;50;ug/L;GAK in spiked with cip_nap_zol;November_2022
+Gin_cnz15;Wastewater;50;30;10;ug/L;GAK in spiked with cip_nap_zol;November_2022
+Gin_cnz17;Wastewater;5;5;5;ug/L;GAK in spiked with cip_nap_zol;November_2022
+Gout_cnz21;Wastewater;10;50;30;ug/L;GAK out spiked with cip_nap_zol;November_2022
+Gout_cnz23;Wastewater;30;10;50;ug/L;GAK out spiked with cip_nap_zol;November_2022
+Gout_cnz25;Wastewater;50;30;10;ug/L;GAK out spiked with cip_nap_zol;November_2022
+Gout_cnz27;Wastewater;5;5;5;ug/L;GAK out spiked with cip_nap_zol;November_2022
+inf_cip1;Wastewater;1;0;0;ug/L;Influent spiked with cip;June_2022
+inf_cip6;Wastewater;12;0;0;ug/L;Influent spiked with cip;June_2022
+inf_cip2;Wastewater;12.5;0;0;ug/L;Influent spiked with cip;June_2022
+inf_cip3;Wastewater;25;0;0;ug/L;Influent spiked with cip;June_2022
+inf_cip4;Wastewater;37.50;0;0;ug/L;Influent spiked with cip;June_2022
+inf_cip9;Wastewater;50;0;0;ug/L;Influent spiked with cip;June_2022
+inf_nap8;Wastewater;0;1;0;ug/L;Influent spiked with nap;June_2022
+inf_nap9;Wastewater;0;12.5;0;ug/L;Influent spiked with nap;June_2022
+inf_nap10;Wastewater;0;25;0;ug/L;Influent spiked with nap;June_2022
+inf_nap11;Wastewater;0;37.50;0;ug/L;Influent spiked with nap;June_2022
+inf_nap12;Wastewater;0;50;0;ug/L;Influent spiked with nap;June_2022
+mb_cip1;Wastewater;1;0;0;ug/L;MBBR spiked with cip;June_2022
+mb_cip2;Wastewater;12;0;0;ug/L;MBBR spiked with cip;June_2022
+mb_cip3;Wastewater;25;0;0;ug/L;MBBR spiked with cip;June_2022
+mb_cip4;Wastewater;37.50;0;0;ug/L;MBBR spiked with cip;June_2022
+mb_cip5;Wastewater;50;0;0;ug/L;MBBR spiked with cip;June_2022
+mb_nap4;Wastewater;0;1;0;ug/L;MBBR spiked with nap;June_2022
+mb_nap5;Wastewater;0;12.5;0;ug/L;MBBR spiked with nap;June_2022
+mb_nap6;Wastewater;0;25;0;ug/L;MBBR spiked with nap;June_2022
+mb_nap7;Wastewater;0;37.50;0;ug/L;MBBR spiked with nap;June_2022
+mb_nap8;Wastewater;0;50;0;ug/L;MBBR spiked with nap;June_2022
+mb_zol4;Wastewater;0;0;0.5;ug/L;MBBR spiked with zol;June_2022
+mb_zol5;Wastewater;0;0;1;ug/L;MBBR spiked with zol;June_2022
+mb_zol6;Wastewater;0;0;12.5;ug/L;MBBR spiked with zol;June_2022
+mb_zol7;Wastewater;0;0;25;ug/L;MBBR spiked with zol;June_2022
+mb_zol8;Wastewater;0;0;37.50;ug/L;MBBR spiked with zol;June_2022
+mb_zol9;Wastewater;0;0;50;ug/L;MBBR spiked with zol;June_2022
+eff_cip1;Wastewater;1;0;0;ug/L;Effluent_spiked_with_cip;June_2022
+eff_cip2;Wastewater;12.5;0;0;ug/L;Effluent_spiked_with_cip;June_2022
+eff_cip3;Wastewater;25;0;0;ug/L;Effluent_spiked_with_cip;June_2022
+eff_cip5;Wastewater;50;0;0;ug/L;Effluent_spiked_with_cip;June_2022
+eff_cip16;Wastewater;0;0;0;ug/L;Effluent_without OMP spiking;June_2022
+eff_nap1;Wastewater;0;1;0;ug/L;Effluent_spiked_with_nap;June_2022
+eff_nap4;Wastewater;0;12.5;0;ug/L;Effluent_spiked_with_nap;June_2022
+eff_nap5;Wastewater;0;25;0;ug/L;Effluent_spiked_with_nap;June_2022
+eff_nap6;Wastewater;0;37.50;0;ug/L;Effluent_spiked_with_nap;June_2022
+eff_nap7;Wastewater;0;50;0;ug/L;Effluent_spiked_with_nap;June_2022
+eff_zol1;Wastewater;0;0;0.5;ug/L;Effluent_spiked_with_zol;June_2022
+eff_zol3;Wastewater;0;0;1;ug/L;Effluent_spiked_with_zol;June_2022
+eff_zol5;Wastewater;0;0;12.5;ug/L;Effluent_spiked_with_zol;June_2022
+eff_zol6;Wastewater;0;0;25;ug/L;Effluent_spiked_with_zol;June_2022
+eff_zol7;Wastewater;0;0;37.50;ug/L;Effluent_spiked_with_zol;June_2022
+eff_zol8;Wastewater;0;0;50;ug/L;Effluent_spiked_with_zol;June_2022
+inf_zol1;Wastewater;0;0;0.5;ug/L;Influent spiked with zol;June_2022
+inf_zol2;Wastewater;0;0;1;ug/L;Influent spiked with zol;June_2022
+inf_zol3;Wastewater;0;0;12.5;ug/L;Influent spiked with zol;June_2022
+inf_zol4;Wastewater;0;0;25;ug/L;Influent spiked with zol;June_2022
+inf_zol5;Wastewater;0;0;37.50;ug/L;Influent spiked with zol;June_2022
+inf_zol6;Wastewater;0;0;50;ug/L;Influent spiked with zol;June_2022
