@@ -34,7 +34,7 @@ For samples inf_zol1–inf_zol6, the emission range ends at 451.6 nm (vs. 610.4 
 
 1. Download the raw dataset from DTU Data (DOI: 10.11583/DTU.24440110)
 2. Place the downloaded Natural_water/ and Wastewater/ directories in the root of this repository
-3. Install dependencies:
+3. Install dependencies
 4. Open and execute EEM_OMPs_DL.ipynb in Jupyter Lab
 
 
