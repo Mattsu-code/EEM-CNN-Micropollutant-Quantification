@@ -38,6 +38,24 @@ For samples inf_zol1–inf_zol6, the emission range ends at 451.6 nm (vs. 610.4 
 4. Open and execute EEM_OMPs_DL.ipynb in Jupyter Lab
 
 
+## Results Visualization
+Model performance was assessed using repeated 5-fold cross-validation (5 repeats, 25 folds total), with folds constructed to ensure balanced representation of both water matrix types (natural water and municipal wastewater) in each training–test split—an approach implemented via stratification on a binary domain label.
+
+The prediction plots provide a four-way distinction based on:
+Natural water (NW) samples plotted as circles (○), municipal wastewater (WW) as squares (□)
+Single OMPs shown in solid symbols, while mixture samples (two or three OMPs) use open symbols
+
+<img width="2119" height="742" alt="image" src="https://github.com/user-attachments/assets/261001f9-8039-4147-8f50-1c4898ef17fc" />
+
+This visualization enables clear assessment of model performance across different sample types and water matrices, with R² values reported for each compound (CIP, NAP, ZOL) in the plot titles. The gray band represents the ±10% relative error region, with the ideal prediction line (y=x) shown as a dashed black line.
+
+
+
+
+
+
+
+
 ## Citation
 
 If this code is used in your research, please cite: *Expert-Free Deep Learning of Fluorescence Spectra for Direct Quantification of Organic Micropollutants in Complex Waters*
