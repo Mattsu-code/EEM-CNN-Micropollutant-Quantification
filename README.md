@@ -36,3 +36,24 @@ For samples inf_zol1–inf_zol6, the emission range ends at 451.6 nm (vs. 610.4 
 2. Place the downloaded Natural_water/ and Wastewater/ directories in the root of this repository
 3. Install dependencies:
 4. Open and execute EEM_OMPs_DL.ipynb in Jupyter Lab
+
+4. Open and execute EEM_OMPs_DL.ipynb in Jupyter Lab
+
+## Repository Structure
+
+EEM-CNN-Micropollutant-Quantification/
+├── EEM_OMPs_DL.ipynb          # Main processing and modeling pipeline
+├── LICENSE                    # MIT License
+├── README.md                  # This file
+├── Natural_water/
+│   └── README.md              # Instructions for natural water data placement
+└── Wastewater/
+ └── README.md              # Instructions for wastewater data placement
+
+## Citation
+
+If this code is used in your research, please cite: *Expert-Free Deep Learning of Fluorescence Spectra for Direct Quantification of Organic Micropollutants in Complex Waters*
+
+And the original dataset:
+
+Paradina-Fernández, L.; Wünsch, U.; Bro, R.; Murphy, K. Direct Measurement of Organic Micropollutants in Water and Wastewater Using Fluorescence Spectroscopy. ACS ES&T Water 2023, 3(12), 3905–3915.
