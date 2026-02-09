@@ -37,18 +37,6 @@ For samples inf_zol1–inf_zol6, the emission range ends at 451.6 nm (vs. 610.4 
 3. Install dependencies:
 4. Open and execute EEM_OMPs_DL.ipynb in Jupyter Lab
 
-4. Open and execute EEM_OMPs_DL.ipynb in Jupyter Lab
-
-## Repository Structure
-
-EEM-CNN-Micropollutant-Quantification/
-├── EEM_OMPs_DL.ipynb          # Main processing and modeling pipeline
-├── LICENSE                    # MIT License
-├── README.md                  # This file
-├── Natural_water/
-│   └── README.md              # Instructions for natural water data placement
-└── Wastewater/
- └── README.md              # Instructions for wastewater data placement
 
 ## Citation
 
