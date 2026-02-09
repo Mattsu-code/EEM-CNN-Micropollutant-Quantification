@@ -1,22 +1,38 @@
 # EEM-CNN-Micropollutant-Quantification
-This repository contains the complete data-processing and modeling pipeline used in our study *"Expert-Free Deep Learning of Fluorescence Spectra for Direct Quantification of Organic Micropollutants in Complex Waters"*. 
-Data processing and CNN modeling pipeline for quantifying organic micropollutants from EEM fluorescence spectra (based on Paradina-Fernández et al. 2023 dataset). Raw data must be obtained from DTU Data (DOI: 10.11583/DTU.24440110).
 
-> ⚠️ **License Scope Notice**  
-> This repository is licensed under the [MIT License](LICENSE) **for code only**.  
-> Raw EEM datasets are **NOT included** and remain governed by the [DTU Data Terms of Use](https://doi.org/10.11583/DTU.24440110).
----
+This repository contains the data-processing and CNN modeling pipeline for the study:
 
-## 🔒 Data Availability
+*Expert-Free Deep Learning of Fluorescence Spectra for Direct Quantification of Organic Micropollutants in Complex Waters*
+
+## License
+
+The code in this repository is licensed under the MIT License. This license applies to the source code only. Raw EEM datasets are not included and remain subject to the terms of the original data provider.
+
+## Data Availability
+
 Raw EEM spectra were obtained from:
-> Paradina-Fernández et al. (2023), *ACS ES&T Water* 3(12):3905–3915  
-> Data Repository: [DTU Data (DOI: 10.11583/DTU.24440110)](https://doi.org/10.11583/DTU.24440110)
-> The original dataset contains numerous parallel (replicate) measurements. To ensure sample independence and avoid artificial inflation of model performance, the final dataset includes 39 natural water (Table S1) and 67 wastewater samples (Table S2) (total N = 106), spanning spiked concentrations from 0 to 50 μg L-1 for each analyte. 
 
+Paradina-Fernández, L.; Wünsch, U.; Bro, R.; Murphy, K. Direct Measurement of Organic Micropollutants in Water and Wastewater Using Fluorescence Spectroscopy. ACS ES&T Water 2023, 3(12), 3905–3915. DOI: 10.1021/acsestwater.3c00323
 
-**To reproduce results**:  
-1. Download raw data directly from DTU Data (accept their terms)  
-2. Place `Natural_water/` and `Wastewater/` folders in this repository root  
-3. Run `EEM_OMPs_DL.ipynb` in Jupyter Lab
+Data repository: DTU Data (DOI: 10.11583/DTU.24440110)
 
-<img width="2117" height="735" alt="image" src="https://github.com/user-attachments/assets/a586a153-4644-4581-b870-fdd64925127a" />
+To comply with data use terms, raw spectral files are not distributed in this repository. Users must download the original dataset directly from the DTU Data repository and accept its terms of use.
+
+## Dataset Preparation
+
+The original dataset contains replicate measurements. To ensure sample independence and avoid artificial inflation of model performance, the final modeling dataset comprises:
+
+- 39 natural water samples (metadata in Natural_water/metadata_natural_water.csv)
+- 67 wastewater samples (metadata in Wastewater/metadata_wastewater.csv)
+- Total N = 106 samples spanning spiked concentrations from 0 to 50 μg L⁻¹ for ciprofloxacin (CIP), naproxen (NAP), and zolpidem (ZOL)
+
+Sample eff_cip4 (CIP = 37.5 μg L⁻¹) was excluded from modeling due to anomalous prediction behavior.
+
+For samples inf_zol1–inf_zol6, the emission range ends at 451.6 nm (vs. 610.4 nm for other samples) but fully covers the ZOL fluorescence signal. The missing high-wavelength region was filled using the unspiked influent sample inf_cip16 to maintain consistent input tensor dimensions.
+
+## Reproduction Instructions
+
+1. Download the raw dataset from DTU Data (DOI: 10.11583/DTU.24440110)
+2. Place the downloaded Natural_water/ and Wastewater/ directories in the root of this repository
+3. Install dependencies:
+4. Open and execute EEM_OMPs_DL.ipynb in Jupyter Lab
