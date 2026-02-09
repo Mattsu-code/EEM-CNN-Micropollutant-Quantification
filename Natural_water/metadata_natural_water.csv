@@ -1,0 +1,40 @@
+sample_identifier;sampletype;conc_cip;conc_nap;conc_zol;conc_unit;detailed_description
+Del_cip8;natural water;0;0;0;ug/L;Delsjon lake
+Del_cip9;natural water;1;0;0;ug/L;Delsjon lake_spiked_with_cip
+Del_cip12;natural water;5;0;0;ug/L;Delsjon lake_spiked_with_cip
+Del_cip10;natural water;12.5;0;0;ug/L;Delsjon lake_spiked_with_cip
+Del_cip11;natural water;25;0;0;ug/L;Delsjon lake_spiked_with_cip
+Del_cip13;natural water;50;0;0;ug/L;Delsjon lake_spiked_with_cip
+Del_nap9;natural water;0;1;0;ug/L;Delsjon lake_spiked_with_nap
+Del_nap12;natural water;0;5;0;ug/L;Delsjon lake_spiked_with_nap
+Del_nap10;natural water;0;12.5;0;ug/L;Delsjon lake_spiked_with_nap
+Del_nap11;natural water;0;25;0;ug/L;Delsjon lake_spiked_with_nap
+Del_nap13;natural water;0;50;0;ug/L;Delsjon lake_spiked_with_nap
+Del_zol9;natural water;0;0;1;ug/L;Delsjon lake_spiked_with_zol
+Del_zol12;natural water;0;0;5;ug/L;Delsjon lake_spiked_with_zol
+Del_zol10;natural water;0;0;12.5;ug/L;Delsjon lake_spiked_with_zol
+Del_zol11;natural water;0;0;25;ug/L;Delsjon lake_spiked_with_zol
+Del_zol13;natural water;0;0;50;ug/L;Delsjon lake_spiked_with_zol
+Rad_cn1;natural water;0;0;0;ug/L;Radasjon lake
+Rad_cn8;natural water;1;1;0;ug/L;Radasjon lake_spiked_with_mixture_cip_nap
+Rad_cn11;natural water;5;5;0;ug/L;Radasjon lake_spiked_with_mixture_cip_nap
+Rad_cn9;natural water;12.5;12.5;0;ug/L;Radasjon lake_spiked_with_mixture_cip_nap
+Rad_cn10;natural water;25;25;0;ug/L;Radasjon lake_spiked_with_mixture_cip_nap
+Rad_cn7;natural water;50;50;0;ug/L;Radasjon lake_spiked_with_mixture_cip_nap
+Rad_cz8;natural water;1;0;1;ug/L;Radasjon lake_spiked_with_mixture_cip_zol
+Rad_cz11;natural water;5;0;5;ug/L;Radasjon lake_spiked_with_mixture_cip_zol
+Rad_cz9;natural water;12.5;0;12.5;ug/L;Radasjon lake_spiked_with_mixture_cip_zol
+Rad_cz10;natural water;25;0;25;ug/L;Radasjon lake_spiked_with_mixture_cip_zol
+Rad_cz12;natural water;50;0;50;ug/L;Radasjon lake_spiked_with_mixture_cip_zol
+Rad_nz1;natural water;0;1;1;ug/L;Radasjon lake_spiked_with_mixture_nap_zol
+Rad_nz2;natural water;0;5;5;ug/L;Radasjon lake_spiked_with_mixture_nap_zol
+Rad_nz3;natural water;0;12.5;12.5;ug/L;Radasjon lake_spiked_with_mixture_nap_zol
+Rad_nz4;natural water;0;25;25;ug/L;Radasjon lake_spiked_with_mixture_nap_zol
+Rad_nz5;natural water;0;50;50;ug/L;Radasjon lake_spiked_with_mixture_nap_zol
+Kung_cnz13;Drinking water;0;0;0;ug/L;KungalvDWT
+Kung_cnz1;Drinking water;50;1;12.5;ug/L;KungalvDWTP_spiked_with_mixture_cip_nap_zolp
+Kung_cnz3;Drinking water;1;12.5;50;ug/L;KungalvDWTP_spiked_with_mixture_cip_nap_zolp
+Kung_cnz5;Drinking water;20;5;10;ug/L;KungalvDWTP_spiked_with_mixture_cip_nap_zolp
+Kung_cnz10;Drinking water;10;25;5;ug/L;KungalvDWTP_spiked_with_mixture_cip_nap_zolp
+Kung_cnz14;Drinking water;12.5;50;1;ug/L;KungalvDWTP_spiked_with_mixture_cip_nap_zolp
+Kung_cnz18;Drinking water;5;10;20;ug/L;KungalvDWTP_spiked_with_mixture_cip_nap_zolp
