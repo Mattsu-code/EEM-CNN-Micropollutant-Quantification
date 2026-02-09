@@ -18,3 +18,5 @@ Raw EEM spectra were obtained from:
 1. Download raw data directly from DTU Data (accept their terms)  
 2. Place `Natural_water/` and `Wastewater/` folders in this repository root  
 3. Run `EEM_OMPs_DL.ipynb` in Jupyter Lab
+
+<img width="2117" height="735" alt="image" src="https://github.com/user-attachments/assets/a586a153-4644-4581-b870-fdd64925127a" />
