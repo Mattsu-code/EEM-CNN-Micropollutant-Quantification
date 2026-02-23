@@ -18,17 +18,27 @@ Data repository: DTU Data (DOI: 10.11583/DTU.24440110)
 
 To comply with data use terms, raw spectral files are not distributed in this repository. Users must download the original dataset directly from the DTU Data repository and accept its terms of use.
 
+
 ## Dataset Preparation
 
 The original dataset contains replicate measurements. To ensure sample independence and avoid artificial inflation of model performance, the final modeling dataset comprises:
 
-- 39 natural water samples (metadata in Natural_water/metadata_natural_water.csv)
-- 67 wastewater samples (metadata in Wastewater/metadata_wastewater.csv)
+- 39 natural water samples (metadata in `Natural_water/metadata_natural_water.csv`)
+- 67 wastewater samples (metadata in `Wastewater/metadata_wastewater.csv`)
 - Total N = 106 samples spanning spiked concentrations from 0 to 50 μg L⁻¹ for ciprofloxacin (CIP), naproxen (NAP), and zolpidem (ZOL)
 
-Sample eff_cip4 (CIP = 37.5 μg L⁻¹) was excluded from modeling due to anomalous prediction behavior.
+**Construction of Concentration Labels:**
+The provided metadata files list the **spiked concentrations**. For wastewater samples, the modeling targets (ground truth) correspond to the **total concentrations**, calculated by adding the intrinsic background concentration to the spiked value. Background levels were sourced from *Paradina-Fernández et al.* (including data digitized from figures). Specifically:
+- Background concentrations below 0.4 μg L⁻¹ were considered negligible (treated as 0 μg L⁻¹).
+- For literature-reported concentration ranges, the **midpoint of the range** was used.
+- Natural water samples were treated as having zero background for the target micropollutants.
 
-For samples inf_zol1–inf_zol6, the emission range ends at 451.6 nm (vs. 610.4 nm for other samples) but fully covers the ZOL fluorescence signal. The missing high-wavelength region was filled using the unspiked influent sample inf_cip16 to maintain consistent input tensor dimensions.
+The final dataset spans total concentrations from 0 to 50 μg L⁻¹ for ciprofloxacin (CIP), naproxen (NAP), and zolpidem (ZOL).
+
+**Data Cleaning & Preprocessing:**
+- Sample `eff_cip4` (CIP = 37.5 μg L⁻¹) was excluded from modeling due to anomalous prediction behavior.
+- For samples `inf_zol1`–`inf_zol6`, the emission range ends at 451.6 nm (vs. 610.4 nm for other samples) but fully covers the ZOL fluorescence signal. The missing high-wavelength region was filled using the unspiked influent sample `inf_cip16` to maintain consistent input tensor dimensions.
+
 
 ## Reproduction Instructions
 
