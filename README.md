@@ -43,11 +43,12 @@ Model performance was assessed using repeated 5-fold cross-validation (5 repeats
 
 
 
-<img width="2241" height="757" alt="image" src="https://github.com/user-attachments/assets/47dd15a0-3d9d-42fd-937b-b4b49db03653" />
+<img width="2638" height="910" alt="image" src="https://github.com/user-attachments/assets/c20d81f2-25bc-42b3-8f89-8c38c755a645" />
+
 
 
 This visualization enables clear assessment of model performance across different sample types and water matrices, with R² values reported for each compound (CIP, NAP, ZOL) in the plot titles. 
-Natural water samples are shown as circles (○), municipal wastewater as squares (□); solid symbols denote single-spiked samples, open symbols denote mixture-spiked samples, and crosses (×) denote unspiked samples (light blue: NW, light orange: WW). The dashed black line indicates ideal 1:1 agreement; gray dash-dotted lines represent ±20% relative deviation from the true value. The light gray shaded region highlights the ±10% relative error envelope.
+Natural water samples are shown as circles (○), municipal wastewater as squares (□); solid symbols denote samples with one target OMP, open symbols denote samples with 2–3 target OMPs, and crosses (×) denote samples without target OMPs (light blue: NW, light orange: WW). The dashed black line indicates ideal 1:1 agreement; gray dash-dotted lines represent ±20% relative deviation from the true value. The light gray shaded region highlights the ±10% relative error envelope.
 
 
 
