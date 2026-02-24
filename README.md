@@ -28,7 +28,7 @@ The original dataset contains replicate measurements. To ensure sample independe
 - Total N = 106 samples spanning spiked concentrations from 0 to 50 μg L⁻¹ for ciprofloxacin (CIP), naproxen (NAP), and zolpidem (ZOL)
 
 **Construction of Concentration Labels:**
-The provided metadata files list the **spiked concentrations**. For wastewater samples, the modeling targets (ground truth) correspond to the **total concentrations**, calculated by adding the intrinsic background concentration to the spiked value. Background concentrations were sourced from Paradina-Fernández et al., incorporating both tabulated values and data digitized from figures. Where concentrations were reported as ranges, the midpoint was used.Specifically:
+The provided metadata files list the **spiked concentrations**. For wastewater samples, the modeling targets correspond to the **total concentrations**, calculated by adding the intrinsic background concentration to the spiked value. Background concentrations were sourced from Paradina-Fernández et al., incorporating both tabulated values and data digitized from figures. Where concentrations were reported as ranges, the midpoint was used.Specifically:
 - Background concentrations below 0.4 μg L⁻¹ were considered negligible (treated as 0 μg L⁻¹).
 - Natural water samples were treated as having zero background for the target micropollutants.
 
